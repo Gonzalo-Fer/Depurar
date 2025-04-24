@@ -10,7 +10,8 @@ public class Main {
        double suma = GestorEstudiantes.calcularNotaMedia(estudiantes[3]);
        System.out.println("La nota de carlos es" + suma);*/
 
-
+    Estudiante[] prueba = new  Estudiante[0];
+    Estudiante pruebas = GestorEstudiantes.encontrarMejorEstudiante(prueba);
 
         System.out.println("Calculando el mejor estudiante...");
         Estudiante mejor = GestorEstudiantes.encontrarMejorEstudiante(estudiantes);
