@@ -7,11 +7,15 @@ public class Main {
                 new Estudiante("Carlos", 21, new double[]{}) // Error: sin notas
         };
 
+       double suma = GestorEstudiantes.calcularNotaMedia(estudiantes[3]);
+       System.out.println("La nota de carlos es" + suma);
+/*
         System.out.println("Calculando el mejor estudiante...");
         Estudiante mejor = GestorEstudiantes.encontrarMejorEstudiante(estudiantes);
         System.out.println("El mejor estudiante es: " + mejor.getNombre()); // Posible NullPointerException
 
         System.out.println("Guardando resultados...");
         GestorEstudiantes.guardarResultados(estudiantes, "resultados.txt");
+*/
     }
 }
